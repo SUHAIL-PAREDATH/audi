@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    font-family: var(--typography-order1);
+}
+.head-top{
+    width: 100%;
+    height: 80px;
+    background-color:#fff;
+    float: left;
+}
+.logo{
+    width: 69px;
+    cursor: pointer;
+    margin-left:120px ;
+    margin-top: 0;
+    
+    
+}
+
+nav{
+   
+    top: 0;
+    left: o;width: 100%;
+    display: flex;
+    align-items: center;
+}
+nav ul {
+    flex:1;
+    padding: 30px 60px;
+    
+    
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.fa{
+    margin:20px 140px;
+    color: black;
+    size: 20px;
+}
+.head{
+    width: 100%;
+    height: 768px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)100%),url(Audi/new.jpg);
+    background-size: cover;
+    padding-left: 80px;
+    padding-top: 130px;
+    
+
+}
+.img{
+    width: 100%;
+    height: 768px;;
+    
+
+
+}
+.head h1{
+    color: #fff;
+    font-size: 48px;
+    font-family: var(--typography-order1);
+    
+
+}
+.head h3{
+    color: #fff;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.btns{
+    padding-top: 15px;
+    display: flex;
+    
+}
+.bt{
+    padding: 15px 25px;
+}
+.bts{
+    margin-left: 10px;
+    padding: 15px 50px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    border-color: #fff;
+}
+.model{
+    padding: 20px;
+    font-size: 20px;
+}
+.slide{
+    width: 253px;
+    padding-right: 30px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+
+} 
+.slide:hover{
+    font: 1em sans-serif;
+    text-decoration: underline;
+    transform: scale(1.1);
+
+}
+.bodyft{
+    width: 100%;
+    height: 920px;
+    background-color: rgb(238, 242, 241);
+
+
+}
+.first{
+    width: 50%;
+    
+}
+.img1{
+    width: 550px;
+    margin-left: 12%;
+    margin-top: 150px;
+    float: left;
+}
+.second{
+    width: 50%;
+    float: left;
+    padding-left: 50px;
+    padding-top: 25%;
+}
+  
+
+.virtual{
+    font-size: 50px;
+
+}
+.btexp{
+    padding:10px 20px;
+    font-size: 16px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    
+}
+.btexp:hover{
+    background-color:gray;
+}
+.body2{
+    width: 100%;
+    height:1180px;
+    background-image: url(Audi/body.2.png);
+    background-size:cover ;
+    padding-left: 4%;
+    padding-top: 20%;
+}
+.img2{
+    width: 100%;
+    height: fit-content;
+    
+}
+.content{
+    width: 660px;
+    height: 360px;
+    background-color: #fff;
+    color: #080808;
+    padding: 60px;
+    font-size: 20px;
+    
+
+
+}
+.content h1{
+    align-items: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.btn2{
+    margin-top: 30px;
+    font-size: 15px;
+    padding: 15px 20px;
+    color: #fff;
+    background-color: #080808;
+    cursor:pointer ;
+}
+.btn3{
+    padding: 15px 20px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.btn2:hover{
+    background-color: grey;
+}
+.body3{
+    width: 100%;
+    height: auto;
+}
+.img4{
+    width: 577px;
+    margin-left: 200px;
+    margin-top:40%;
+    float: left;
+    
+}
+.seconds{
+    float: left;
+    margin-top: 40%;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.body4{
+    width: 100%;
+    height: 565px;
+    background-color: #080808;
+    margin-top: 75%;
+    color: #fff;
+    display: flex;
+}
+.bl-map{
+    width: 25%;
+    height: 565px;
+    float: left;
+    padding-left: 62px;
+    padding-top: 50px;
+    font-size:25px;
+    
+
+}
+.map{
+    width: 75%;
+    height: 565px;
+}
+.map1{
+    width: 100%;
+    height: 565px;
+}
+.mp-bt{
+    margin-top: 100%;
+    margin-left: 20px;
+    padding: 18px 50px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #080808;
+    border: 1px solid;
+    
+}
+.contact{
+    width: 100%;
+    height: 900px;
+    background-color: #080808;
+    margin-top: 100px;
+}
+.cot-text{
+    width: 53%;
+    height: 900px;
+    color: #fff;
+    float: left;
+    font-size: 42px;
+    padding-left: 60px;
+    padding-top: 35%;
+    
+
+}
+.ct-btn{
+    padding: 15px 30px;
+    background-color: #080808;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid;
+    cursor: pointer;
+}
+.cot-img{
+    width: 47%;
+    height: 900px;
+    float: left;
+    
+    
+}
+.img-mb{
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+    
+}
+.booking{
+    width: 100%;
+    height:550px;
+   
+    
+
+}
+.booking h2{
+    margin-left: 40px;
+    padding-top: 80px;
+    font-size: 40px;
+}
+
+.bk-img{
+    width: 460px;
+    height: 259px;
+    float: left;
+    cursor: pointer;
+    
+}
+.bk-cnt{
+    width: 460px;
+    height: 259px;
+    float: left;
+    margin: 20px 5px;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: 18px;
+
+}
+.bk-lnk{
+    color: #080808;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+.bk-date{
+    color: #080808;
+    text-decoration: none;
+    
+}
+.footer{
+    width: 100%;
+    height: 120vh;
+    background-color: #080808;
+    padding-top: 100px;
+    color: #fff;
+}
+.row{
+    width: 85%;
+    height: 70vh;
+    margin-left: 110px;
+    border-bottom: .5px solid #ececec;
+    
+}
+.colom1{
+    width: 20%;
+    height: 50vh;
+    float: left;
+    color: #fff;
+}
+.colom1 h3{
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+.colom1 ul li{
+    margin-bottom: 25px;
+    display: block;
+    cursor: pointer;
+    
+    
+}
+.fa-brands{
+    padding-top: 80px;
+    color: #fff;
+    padding-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.bottom{
+    width: 85%;
+    height: 20vh;
+    margin-left: 110px;
+    padding-top: 40px;
+    
+}
+.btm-menu{
+    margin-right: 40px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    
+}
+.btm-para{
+    padding-top: 20px;
+    font-size: 13px;
+    cursor: pointer;
+}
